@@ -1,0 +1,41 @@
+footer {
+  background: linear-gradient(70deg, #8cc0de 65%, #fedea8 65%,#ff9b9b 93%,#8cc0de 27%);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+    color: rgb(70, 70, 70);
+    margin-top: 20px;
+   
+   /*  position: fixed;
+    left: 0;
+    bottom: 0; */
+    width: 100%;
+    border: #fedea8 2px solid;
+  }
+   .design {
+    text-align: left;font-family: Verdana;
+  }
+  .design q {
+    font-style: italic;
+    font-family: Verdana;
+  }
+  footer div h3 {
+    text-transform: uppercase;
+    
+  }
+ 
+   .contact {
+    color: rgb(70, 70, 70);
+    font-weight:600;
+    text-decoration: none;
+    padding: 0.5rem ;
+  }
+ 
+   .contact:hover {
+    color: wheat;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+  }
+  
